@@ -1,5 +1,6 @@
 package chap_01;
 
+// 자료형
 public class _02_DataTypes {
     // 메인메소드 단축어 : psvm 또는 main
     public static void main(String[] args) {
