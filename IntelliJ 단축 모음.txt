@@ -1,7 +1,14 @@
 <Window 용 단축키>
-Run : Shift + F10
+Run 			: Shift + F10
 
+선택라인 복사	 	: Ctr + D
 
+선택라인 주석		: Ctr + /
+범위라인 주석		: Ctr + Shift + /
+
+선택라인 [상/하] 이동	: [Ctr/Alt] + Shift + 상/하 커맨드
+
+================================================================
 <단축어>
-메인메소드 자동 생성 : psvm 또는 main
-System.out.println(); : sout
+메인메소드 자동 생성	: psvm 또는 main
+System.out.println(); 		: sout
