@@ -29,15 +29,17 @@ public class _07_TypeCasting {
 
     /*
         변수에 형변환된 데이터 집어넣기
-           1. <자동 형변환>
+           1. <자동 형변환> : 데이터 저장범위가 더 넓은 자료형으로 값 주입 시 자동 형변환 된다.
              int > long > float > double
 
-           2. <수동 형변환>
+           2. <수동 형변환> : 데이터 저장범위가 더 적은 자료형으로 값 주입 시 수동 형변환 해줘야 한다.
             double > float > long > int
 
      */
+        // int형값을 double형으로 주입
         double convertedScoreDouble = score; // 191 -> 191.0 : 자동 형변환
 
+        // double형을 int형으로 주입
         int convertedScoreInt = (int)score_d; // 191.8 -> 191 : 수동 형변환
 
     }
