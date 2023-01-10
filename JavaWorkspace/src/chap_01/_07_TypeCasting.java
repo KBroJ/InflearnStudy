@@ -42,5 +42,29 @@ public class _07_TypeCasting {
         // double형을 int형으로 주입
         int convertedScoreInt = (int)score_d; // 191.8 -> 191 : 수동 형변환
 
+
+// ==================================================================================================
+        // [숫자(정수) => 문자열] 로 변환
+        // 방법 1.
+        String s1 = String.valueOf(93); // String클래스의 valueOf메소드를 통해 
+        System.out.println(s1); // 93
+        // 방법 2.
+        s1 = Integer.toString(93);
+        System.out.println(s1);
+
+        // [숫자(실수) => 문자열] 로 변환
+        // 방법 1.
+        String s2 = String.valueOf(98.8); // [숫자(실수) => 문자열] 로 변환
+        System.out.println(s2); // 98.8
+        // 방법 2.
+        s2 = Double.toString(98.8);
+        System.out.println(s2); // 98.8
+
+        // [문자열 => 숫자로]
+        int i = Integer.parseInt("93"); // ★★★★
+        System.out.println(i); // 93
+        double d = Double.parseDouble("98.8");
+        System.out.println(d); // 98.8
+
     }
 }
