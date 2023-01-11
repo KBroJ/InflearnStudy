@@ -17,6 +17,6 @@ public class _03_Operator3 {
 
         System.out.println(5 != 5); // 5 는 5와 같지 않다 : false
         System.out.println(5 != 3); // 5 는 3과 같지 않  다 : true
-        
+
     }
 }
