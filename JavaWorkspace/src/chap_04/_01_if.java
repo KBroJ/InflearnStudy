@@ -1,0 +1,29 @@
+package chap_04;
+
+public class _01_if {
+    public static void main(String[] args) {
+/*
+    <조건문 If>
+
+        if( 조건 ) {
+            ...수행할 내용...
+        }
+
+        * if문 내에서 하나의 문장을 실행할 때는 { } 생략 가능
+ */
+//        int hour = 10; // 오전 10시
+        int hour = 15; // 오후 3시
+
+        // 1. if문 내에서 하나의 문장을 실행할 때는 { } 생략 가능
+        if(hour < 14)
+            System.out.println("아이스 아메리카노 +1");
+
+        // 2. if문 내에서 2개 이상의 문장을 실행할 때는 { } 생략 불가
+        if( hour < 14 ) {
+            System.out.println("아이스 아메리카노 +1");
+            System.out.println("샷추가");
+        }
+        System.out.println("커피 주문완료");
+
+    }
+}
