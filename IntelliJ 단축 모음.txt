@@ -13,4 +13,6 @@ Run 			: Shift + F10
 ================================================================
 <단축어>
 메인메소드 자동 생성	: psvm 또는 main
-System.out.println(); 		: sout
+System.out.println(); 	: sout
+
+반복문 자동 생성 		: fori
